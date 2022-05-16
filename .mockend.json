@@ -1,7 +1,7 @@
 {
 	"User": {
 		"name": {
-			"string": {"minLength":12, "maxLength":12}
+			"regexp": "[1-9]{12,12}
 		},
 		"post": {
 			"hasMany": "Post"
