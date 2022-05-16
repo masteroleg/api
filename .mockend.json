@@ -1,7 +1,7 @@
 {
 	"User": {
 		"name": {
-			"regexp": "[1-9]{12,12}
+			"regexp": "[1-9]{12,12}"
 		},
 		"post": {
 			"hasMany": "Post"
