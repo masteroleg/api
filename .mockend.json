@@ -1,6 +1,6 @@
 {
   "User": {
      "firstName": { "regexp": "[A-Z][a-z]{4,4}" },
-     "title": { "loremSentences": { "minLength": 20, "maxLength": 30 }}
+     "title": { "loremSentences": { "minLength": 20, "maxLength": 330 }}
   }
 }
