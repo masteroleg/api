@@ -1,5 +1,5 @@
 {
-  "Userok": {
-    "title": { "string": {} }
+  "User": {
+    "title": { "loremSentences": {{ "minLength": 20, "maxLength": 30 }} }
   }
 }
