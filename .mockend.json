@@ -1,5 +1,5 @@
 {
   "User": {
-    "title": { "loremSentences": {{ "minLength": 20, "maxLength": 30 }} }
+    "title": { "loremSentences": { "minLength": 20, "maxLength": 30 } }
   }
 }
