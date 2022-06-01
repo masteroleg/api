@@ -1,10 +1,10 @@
 {
-    "Shift": {
-        "batch": {
-            "regexp": "[0-9]{12,12}"
-        },
-        "articleEAN13": {
-            "regexp": "48200[0-9]{8,8}"
-        }
-    }
+	"Shift": {
+		"batch": {
+			"regexp": "[0-9]{12,12}"
+		},
+		"articleEAN13": {
+			"regexp": "48200[0-9]{8,8}"
+		}
+	}
 }
