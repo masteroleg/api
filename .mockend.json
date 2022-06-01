@@ -31,7 +31,7 @@
     "packedPals": { "int": { "min": 0, "max": 9 } },
     "tempPals": { "int": { "min": 0, "max": 9 } },
     "tempPalsQty": { "int": { "min": 0, "max": 9 } },
-    "productiveTime": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
+    "productiveTime": { "regexp": "[00-59]{2,2}:[00-59]{2,2}:[00-59]{2,2}" },
     "pauseDuration": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
     "wasteDuration": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
     "pM43Boot": { "int": { "min": 0, "max": 99 } },
