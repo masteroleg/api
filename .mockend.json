@@ -7,7 +7,28 @@
       "regexp": "48200[0-9]{8,8}"
     },
     "articleText": {
-      "loremSentences": { "minLength": 20, "maxLength": 90 }
+      "loremWords": { "minLength": 5, "maxLength": 20 }
+    },
+    "shiftNo": {
+      "regexp": "P[0-9]{11,11}"
+    },
+    "shiftStartTime": {
+      "dateTime": {
+        "min": "2018-01-01T00:00:00.000Z",
+        "max": "2022-12-31T23:59:59.999Z"
+      }
+    },
+    "shiftEndTime": {
+      "dateTime": {
+        "min": "2018-01-01T00:00:00.000Z",
+        "max": "2022-12-31T23:59:59.999Z"
+      }
+    },
+    "wasteScanned": {
+      "int": { "min": 0, "max": 9999 }
+    },
+    "wasteNotScanned": {
+      "int": { "min": 0, "max": 9999 }
     }
   }
 }
