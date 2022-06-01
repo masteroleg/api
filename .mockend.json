@@ -7,7 +7,7 @@
       "regexp": "48200[0-9]{8,8}"
     },
     "articleText": {
-      "loremSentences": { "minLength": 20, "maxLength": 80 }
+      "loremSentences": { "minLength": 50, "maxLength": 180 }
     }
   }
 }
