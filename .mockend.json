@@ -7,7 +7,7 @@
       "regexp": "48200[0-9]{8,8}"
     },
     "articleText": {
-      "loremSentences": { "minLength": 5, "maxLength": 20 }
+      "loremSentences": { "minLength": 30, "maxLength": 90 }
     },
     "shiftNo": {
       "regexp": "P[0-9]{11,11}"
@@ -31,9 +31,9 @@
     "packedPals": { "int": { "min": 0, "max": 9 } },
     "tempPals": { "int": { "min": 0, "max": 9 } },
     "tempPalsQty": { "int": { "min": 0, "max": 9 } },
-    "productiveTime": { "regexp": "[00-59]{2,2}:[00-59]{2,2}:[00-59]{2,2}" },
-    "pauseDuration": { "regexp": "[00-59]{2,2}:[00-59]{2,2}:[00-59]{2,2}" },
-    "wasteDuration": { "regexp": "[00-59]{2,2}:[00-59]{2,2}:[00-59]{2,2}" },
+    "productiveTime": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
+    "pauseDuration": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
+    "wasteDuration": { "regexp": "[00-59]{2,2}':'[00-59]{2,2}':'[00-59]{2,2}" },
     "pM43Boot": { "int": { "min": 0, "max": 99 } },
     "dominoReconnect": { "int": { "min": 0, "max": 99 } },
     "nbPause": { "int": { "min": 0, "max": 99 } }
