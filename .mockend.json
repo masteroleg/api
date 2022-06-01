@@ -3,11 +3,8 @@
         "batch": {
             "regexp": "[0-9]{12,12}"
         },
-        "avatar": {
-            "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+        "articleEAN13": {
+            "regexp": "48200[0-9]{8,8}"
         },
-        "photo": {
-            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-        }
     }
 }
