@@ -24,11 +24,13 @@
         "max": "2022-12-31T23:59:59.999Z"
       }
     },
-    "wasteScanned": {
-      "int": { "min": 0, "max": 9999 }
-    },
-    "wasteNotScanned": {
-      "int": { "min": 0, "max": 9999 }
-    }
+    "wasteScanned": { "int": { "min": 0, "max": 9999 } },
+    "wasteNotScanned": { "int": { "min": 0, "max": 9999 } },
+    "packedBoxes": { "int": { "min": 1, "max": 999 } },
+    "packedLBoxes": { "int": { "min": 1, "max": 99 } },
+    "packedPals": { "int": { "min": 0, "max": 9 } },
+    "tempPals": { "int": { "min": 0, "max": 9 } },
+    "tempPalsQty": { "int": { "min": 0, "max": 9 } },
+    "productiveTime": { "regexp": "[00-59]{2,2}:[00-59]{2,2}:[00-59]{2,2}" }
   }
 }
